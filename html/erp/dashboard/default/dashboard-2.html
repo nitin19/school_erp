@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Adminox - Responsive Web App Kit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+    <meta content="Coderthemes" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!--Morris Chart CSS -->
+    <link rel="stylesheet" href="../plugins/morris/morris.css">
+
+    <!-- App css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/core.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/components.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/pages.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    <script src="assets/js/modernizr.min.js"></script>
+
+</head>
+
+
+<body>
+
+    <!-- Begin page -->
+    <div id="wrapper">
+
+        <!-- Top Bar Start -->
+        <div class="topbar">
+
+            <!-- LOGO -->
+            <div class="topbar-left">
+                <!--<a href="index.html" class="logo"><span>Code<span>Fox</span></span><i class="mdi mdi-layers"></i></a>-->
+                <!-- Image logo -->
+                <a href="index.html" class="logo"><span><img src="assets/images/logo.png" alt="" height="50"></span><i><img src="assets/images/logo_sm.png" alt="" height="28"></i></a>
+            </div>
+
+            <!-- Button mobile view to collapse sidebar menu -->
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container">
+
+                    <!-- Navbar-left -->
+                    <ul class="nav navbar-nav navbar-left nav-menu-left">
+                        <li>
+                            <button type="button" class="button-menu-mobile open-left waves-effect">
+                                <i class="dripicons-menu"></i>
+                            </button>
+                        </li>
+                        <li class="academic-year">ACADEMIC YEAR: (2010 - 2017)</li>
+                    </ul>
+
+                    <!-- Right(Notification) -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown user-box">
+                            <a href="" class="dropdown-toggle waves-effect user-link" data-toggle="dropdown" aria-expanded="true">
+                                <img src="assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle user-img">
+                            </a>
+
+                            <ul class="dropdown-menu dropdown-menu-right arrow-dropdown-menu arrow-menu-right user-list notify-list">
+                                <li><a href="javascript:void(0)">Profile</a>
+                                </li>
+                                <li><a href="javascript:void(0)"><span class="badge badge-info pull-right">4</span>Settings</a>
+                                </li>
+                                <li><a href="javascript:void(0)">Lock screen</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li><a href="javascript:void(0)">Logout</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <!-- end navbar-right -->
+
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end navbar -->
+        </div>
+        <!-- Top Bar End -->
+
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="left side-menu">
+            <div class="slimscroll-menu" id="remove-scroll">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metisMenu nav" id="side-menu">
+                        <li class="menu-title text-center">School Name</li>
+                        <li><a href="dashboard-2.html"><i class="fi-air-play"></i> Dashboard</a>
+                        <li>
+                            <a href="javascript: void(0);" aria-expanded="true"><i class="fi-target"></i> <span> Link </span> <span class="menu-arrow"></span></a>
+                            <ul class="nav-second-level nav" aria-expanded="true">
+                                <li><a href="#">Link 1</a></li>
+                                <li><a href="#">Link 2</a></li>
+                                <li><a href="#">Link 3</a></li>
+                                <li><a href="#">Link 4</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Sidebar -->
+                <div class="clearfix"></div>
+
+            </div>
+            <!-- Sidebar -left -->
+
+        </div>
+        <!-- Left Sidebar End -->
+
+
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="content-page">
+            <!-- Start content -->
+            <div class="content">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="page-title-box">
+                                <h4 class="page-title">Dashboard</h4>
+                                <ol class="breadcrumb p-0 m-0">
+                                    <li>
+                                        <a href="#">Adminox</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dashboard</a>
+                                    </li>
+                                    <li class="active">
+                                        Dashboard 2
+                                    </li>
+                                </ol>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+
+                        <div class="col-sm-3">
+                            <div class="card-box widget-box-four">
+                                <div class="widget-box-four-chart">
+                                    <img class="icon-colored" src="assets/images/icons/reading_ebook.svg" />
+                                </div>
+                                <div class="wigdet-four-content pull-left">
+                                    <h4 class="m-t-0 font-16 m-b-5 text-overflow" title="Total Revenue">Total Students</h4>
+                                    <p class="font-secondary text-muted">Jan - Apr 2017</p>
+                                    <h3 class="m-b-0 m-t-20"><span data-plugin="counterup">300</span></h3>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-sm-3">
+                            <div class="card-box widget-box-four">
+                                <div class="widget-box-four-chart">
+                                    <img class="icon-colored" src="assets/images/icons/businessman.svg" />
+                                </div>
+                                <div class="wigdet-four-content pull-left">
+                                    <h4 class="m-t-0 font-16 m-b-5 text-overflow" title="Total Unique Visitors">Total Employees</h4>
+                                    <p class="font-secondary text-muted">Jan - Apr 2017</p>
+                                    <h3 class="m-b-0 m-t-20"><span data-plugin="counterup">70</span></h3>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-sm-3">
+                            <div class="card-box widget-box-four">
+                                <div class="widget-box-four-chart">
+                                    <img class="icon-colored" src="assets/images/icons/news.svg" />
+                                </div>
+                                <div class="wigdet-four-content pull-left">
+                                    <h4 class="m-t-0 font-16 m-b-5 text-overflow" title="Number of Transactions">Number of Course</h4>
+                                    <p class="font-secondary text-muted">Jan - Apr 2017</p>
+                                    <h3 class="m-b-0 m-t-20"><span data-plugin="counterup">15</span></h3>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-sm-3">
+                            <div class="card-box widget-box-four">
+                                <div class="widget-box-four-chart">
+                                    <img class="icon-colored" src="assets/images/icons/timeline.svg" />
+                                </div>
+                                <div class="wigdet-four-content pull-left">
+                                    <h4 class="m-t-0 font-16 m-b-5 text-overflow" title="Number of Transactions">Total Batch</h4>
+                                    <p class="font-secondary text-muted">Jan - Apr 2017</p>
+                                    <h3 class="m-b-0 m-t-20"><span data-plugin="counterup">8</span></h3>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <!-- end col -->
+
+                    </div>
+                    <!-- end row -->
+
+
+                    <div class="row">
+                        <div class="col-lg-8">
+
+                            <div class="dashboard-chart m-b-20">
+                                <ul class="nav nav-tabs tabs-bordered">
+                                    <li class="active">
+                                        <a href="#chart2" data-toggle="tab" aria-expanded="true">
+                                            <span class="visible-xs"><i class="fa fa-user"></i></span>
+                                            <span class="hidden-xs">Chart 1</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#chart1" data-toggle="tab" aria-expanded="false">
+                                            <span class="visible-xs"><i class="fa fa-home"></i></span>
+                                            <span class="hidden-xs">Chart 2</span>
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#chart3" data-toggle="tab" aria-expanded="false">
+                                            <span class="visible-xs"><i class="fa fa-envelope-o"></i></span>
+                                            <span class="hidden-xs">Chart 3</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="chart2">
+                                        <h4 class="header-title m-t-0">Stacked Bar Chart</h4>
+                                        <div class="text-center">
+                                            <div class="row">
+                                                <div class="col-xs-4">
+                                                    <div class="m-t-20 m-b-20">
+                                                        <h4 class="m-b-10">2563</h4>
+                                                        <p class="text-uppercase m-b-5 font-13 font-600">Lifetime total sales</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-4">
+                                                    <div class="m-t-20 m-b-20">
+                                                        <h4 class="m-b-10">6952</h4>
+                                                        <p class="text-uppercase m-b-5 font-13 font-600">Income amounts</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-4">
+                                                    <div class="m-t-20 m-b-20">
+                                                        <h4 class="m-b-10">1125</h4>
+                                                        <p class="text-uppercase m-b-5 font-13 font-600">Total visits</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="morris-bar-stacked" style="height: 310px;"></div>
+                                    </div>
+                                    <div class="tab-pane" id="chart1">
+                                        <h4 class="header-title m-t-0">Multiple Statistics</h4>
+                                    </div>
+                                    <div class="tab-pane" id="chart3">
+                                        <h4 class="header-title m-t-0">Realtime Statistics</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- end col -->
+
+
+                        <div class="col-lg-4">
+                            <div class="panel panel-color panel-inverse bday-dashboard">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Birthday Today</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <!-- <div class="text-center zero-student-bday">
+                                        <p class="icon-cack"><i class="mdi mdi-cake-layered"></i></p>
+                                        <p>Today no birthday</p>
+                                    </div> -->
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#"><img src="assets/images/users/avatar-1.jpg" class="img-circle user-img" height="40"></a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Shishangia Hardik M.</h4>
+                                            <p>2 JUN 1995</p>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#"><img src="assets/images/users/avatar-1.jpg" class="img-circle user-img" height="40"></a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Shishangia Hardik M.</h4>
+                                            <p>2 JUN 1995</p>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="#"><img src="assets/images/users/avatar-1.jpg" class="img-circle user-img" height="40"></a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Shishangia Hardik M.</h4>
+                                            <p>2 JUN 1995</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card-box">
+                                <h4 class="header-title m-t-0 m-b-15">Recent Notifications</h4>
+
+                                <div class="m-b-15">
+                                    <p><span class="pull-right text-dark">Mark Loyerdn</span> <span class="label label-primary">Visitor</span>
+                                    </p>
+                                    <p class="font-13 m-b-5">Praesent libero. Nunc nec dui vitae urna cursus lacinia. In venenatis eget justo in dictum. Vestibulum auctor raesent quisnm.</p>
+                                    <p class="font-13"><i>2 Min ago</i>
+                                    </p>
+                                </div>
+
+                                <div class="">
+                                    <p><span class="pull-right text-dark">Mark Loyerdn</span> <span class="label label-success">Seller</span>
+                                    </p>
+                                    <p class="font-13 m-b-5">Praesent libero. Nunc nec dui vitae urna cursus lacinia. In venenatis eget justo in dictum. Vestibulum auctor raesent quisnm.</p>
+                                    <p class="font-13 m-b-0"><i>5 Hours ago</i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end col -->
+
+                    </div>
+                    <!-- end row -->
+
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card-box">
+                                <h4 class="m-t-0 header-title"><b>Recent Candidates</b></h4>
+                                <p class="text-muted font-14 m-b-20">
+                                    Your awesome text goes here.
+                                </p>
+
+                                <div class="table-responsive">
+                                    <table class="table m-0 table-colored table-primary table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Position</th>
+                                                <th>Office</th>
+                                                <th>Age</th>
+                                                <th>Start date</th>
+                                                <th>Salary</th>
+                                            </tr>
+                                        </thead>
+
+
+                                        <tbody>
+                                            <tr>
+                                                <td>Tiger Nixon</td>
+                                                <td>System Architect</td>
+                                                <td>Edinburgh</td>
+                                                <td>61</td>
+                                                <td>2011/04/25</td>
+                                                <td>$320,800</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Garrett Winters</td>
+                                                <td>Accountant</td>
+                                                <td>Tokyo</td>
+                                                <td>63</td>
+                                                <td>2011/07/25</td>
+                                                <td>$170,750</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ashton Cox</td>
+                                                <td>Junior Technical Author</td>
+                                                <td>San Francisco</td>
+                                                <td>66</td>
+                                                <td>2009/01/12</td>
+                                                <td>$86,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cedric Kelly</td>
+                                                <td>Senior Javascript Developer</td>
+                                                <td>Edinburgh</td>
+                                                <td>22</td>
+                                                <td>2012/03/29</td>
+                                                <td>$433,060</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Airi Satou</td>
+                                                <td>Accountant</td>
+                                                <td>Tokyo</td>
+                                                <td>33</td>
+                                                <td>2008/11/28</td>
+                                                <td>$162,700</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Brielle Williamson</td>
+                                                <td>Integration Specialist</td>
+                                                <td>New York</td>
+                                                <td>61</td>
+                                                <td>2012/12/02</td>
+                                                <td>$372,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Herrod Chandler</td>
+                                                <td>Sales Assistant</td>
+                                                <td>San Francisco</td>
+                                                <td>59</td>
+                                                <td>2012/08/06</td>
+                                                <td>$137,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Rhona Davidson</td>
+                                                <td>Integration Specialist</td>
+                                                <td>Tokyo</td>
+                                                <td>55</td>
+                                                <td>2010/10/14</td>
+                                                <td>$327,900</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Colleen Hurst</td>
+                                                <td>Javascript Developer</td>
+                                                <td>San Francisco</td>
+                                                <td>39</td>
+                                                <td>2009/09/15</td>
+                                                <td>$205,500</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Sonya Frost</td>
+                                                <td>Software Engineer</td>
+                                                <td>Edinburgh</td>
+                                                <td>23</td>
+                                                <td>2008/12/13</td>
+                                                <td>$103,600</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- container -->
+
+            </div>
+            <!-- content -->
+
+            <footer class="footer text-right">
+                2017 © Adminox. - Coderthemes.com
+            </footer>
+
+        </div>
+
+
+        <!-- ============================================================== -->
+        <!-- End Right content here -->
+        <!-- ============================================================== -->
+
+
+    </div>
+    <!-- END wrapper -->
+
+
+
+    <!-- jQuery  -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/metisMenu.min.js"></script>
+    <script src="assets/js/waves.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+
+    <!-- Counter js  -->
+    <script src="../plugins/waypoints/jquery.waypoints.min.js"></script>
+    <script src="../plugins/counterup/jquery.counterup.min.js"></script>
+
+    <!-- KNOB JS -->
+    <!--[if IE]>
+        <script type="text/javascript" src="../plugins/jquery-knob/excanvas.js"></script>
+        <![endif]-->
+    <script src="../plugins/jquery-knob/jquery.knob.js"></script>
+
+    <!--Morris Chart-->
+    <script src="../plugins/morris/morris.min.js"></script>
+    <script src="../plugins/raphael/raphael-min.js"></script>
+
+    <!-- Sparkline charts -->
+    <script src="../plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Dashboard init -->
+    <script src="assets/pages/jquery.dashboard-2.js"></script>
+
+    <!-- App js -->
+    <script src="assets/js/jquery.core.js"></script>
+    <script src="assets/js/jquery.app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+
+.m-t-5 { margin-top: 5px; }
+ 
+.active-tab-blue-1 li.active a, .active-tab-blue-1 li.active a:hover, .active-tab-blue-1 li.active a:focus { border-radius: 0; border-bottom: 2px solid #44c7f5 !important; color: #44c7f5; }
+.form-bodder-bottom .form-control { padding: 7px 0; border: 0; border-bottom: 1px solid #dadada; border-radius: 0; }
+.form-icon { position: relative; }
+.form-icon i { position: absolute; top: 12px; right: 0; font-size: 18px; color: #44c7f5; }
+.form-icon .form-control { padding-right: 20px; }
+
+.login-school-logo { height: 120px; margin: 30px auto 15px; }
+.login-section { width: auto; max-width: 800px; margin: 0 auto; display: table; background: #FFF; 
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3); -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3); box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3); }
+.login-section .login-left-text { width: 40%; display: table-cell; vertical-align: middle; padding: 30px; background: #44c7f5; color: #FFF; font-size: 18px; font-weight: 200; }
+.login-section .login-left-text h1 { color: #FFF; margin: 0 0 15px; font-size: 26px; font-weight: 600;  }
+.login-section .login-right-form { width: 60%; display: table-cell; vertical-align: top; padding: 30px; }
+.login-section .forgot-pass-link-login { display: inline-block; font-size: 12px; color: #000000; }
+
+@media(max-width: 767px){
+  .login-school-logo { margin: 15px auto 15px; }
+  .login-section .login-left-text,
+  .login-section .login-right-form { width: 100%; display: inline-block; padding: 20px; }
+  .login-section .login-right-form .nav-tabs>li { float: left; margin-bottom: -4px; font-size: 12px; }
+}
+
+/*header, sidebar, page title style changes*/
+.navbar-default { background-color: #44c7f5; }
+.button-menu-mobile { background-color: #3ab5e0; }
+.topbar .topbar-left { background-color: #ffffff; }
+.side-menu { background: #3b4042; }
+#sidebar-menu > ul > li > a.active { background-color: #2e3335; }
+#sidebar-menu > ul > li > a:hover, #sidebar-menu > ul > li > a:focus, #sidebar-menu > ul > li > a:active { background-color: #2e3335; }
+.academic-year { padding: 25px 15px; font-size: 12px; color: #ffffff; }
+.page-title-box .breadcrumb { font-size: 10px; }
+/*End header, sidebar, page title style changes*/
+
+/*default style changes*/
+.tabs-bordered li.active a, .tabs-bordered li.active a:hover, .tabs-bordered li.active a:focus { border-bottom: 2px solid #44c7f5 !important; color: #44c7f5; }
+/*end default style changes*/
+
+/*dashboard*/
+.widget-box-four .icon-colored { height: 80px; width: 80px; margin: -5px auto; }
+
+.dashboard-chart { background: #FFF; border: 1px solid #e2e2e2; }
+.dashboard-chart .tab-content { padding: 20px 20px; }
+
+.zero-student-bday .icon-cack { font-size: 50px; color: #ee612a; margin: 0; }
+.bday-dashboard .media-heading { font-size: 16px; margin: 0 0; }
+.bday-dashboard p { font-size: 11px; }
+.bday-dashboard .media { margin-top: 15px; }
+.bday-dashboard .media:first-child { margin-top: 0; }
